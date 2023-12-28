@@ -1,0 +1,42 @@
+body{
+    background-image: url(myown.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: 40px;
+    
+}
+.dblock{
+    display: block;
+}
+.img{
+    height: 400px;
+    width: 300px;
+    border-radius: 15px;
+}
+.myimg{
+    height: 400px;
+    width: 350px;
+    border-radius: 20px;
+}
+h2{
+    text-align: center;
+    font-weight: bolder;
+    font-size: 40px;
+    color: rgb(243, 196, 77);
+}
+.hero{
+    display: flex;
+    justify-content: center;
+}
+@media(max-width: 600px){
+    .hero{
+        flex-direction: column;
+    }
+    .img{
+        width: auto;
+        margin-top: 10px;
+    }
+    .myimg{
+        width: auto;
+    } 
+}
